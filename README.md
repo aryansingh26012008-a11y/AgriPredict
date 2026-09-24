@@ -1,6 +1,10 @@
-# AgriPredict
-AgriPredict.ai is a machine learning web application that recommends the most suitable crop using soil nutrients, temperature, humidity, pH, and rainfall. Built with Python, Flask, Pandas, and Scikit-learn, it delivers fast, data-driven insights through a modern interface.
-# AgriPredict.ai
+# AgriPredic
+This project aims to support smarter farming decisions by recommending the most suitable crop based on soil fertility and environmental conditions. The model is trained on agricultural data and uses machine learning techniques to analyze essential inputs such as nitrogen, phosphorus, potassium, temperature, humidity, soil pH, and rainfall. A Random Forest classifier is used to predict the ideal crop for a given field, and the prediction is exposed through an interactive Streamlit web application.
+
+The system can be used by farmers, agronomists, and agricultural researchers to improve crop planning, optimize resource usage, and increase productivity. It demonstrates the practical application of data science and machine learning in agriculture, combining predictive modeling, clean UI design, and real-time recommendations.
+
+One-line tagline
+AI-powered crop selection for better farming decisions and improved agricultural productivity.
 
 ### Intelligent Crop Recommendation Using Machine Learning
 
@@ -26,7 +30,6 @@ Using a trained Random Forest classification model, the application processes th
 - Real-time prediction results
 - Trained Random Forest model
 - Soil and weather parameter analysis
-- Flask-powered web interface
 - Modern dark glassmorphism design
 - Mobile-friendly layout
 
@@ -53,12 +56,10 @@ The trained model is saved as `model.pkl` and loaded by the Flask application du
 ## Technologies Used
 
 - Python
-- Flask
+- Streamlit
 - Pandas
 - NumPy
 - Scikit-learn
-- HTML5
-- CSS3
 - Bootstrap 5
 - Font Awesome
 
@@ -71,8 +72,6 @@ AgriPredict.ai/
 ├── crop.py
 ├── model.pkl
 ├── Crop_recommendation.csv
-├── index.html
-├── style.css
 ├── img.jpg
 ├── requirements.txt
 ├── README.md
